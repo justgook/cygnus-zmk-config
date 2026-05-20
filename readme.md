@@ -6,7 +6,17 @@
 
 Dactyl Cygnus is a handwired board originally designed by @juhakaup and available at [https://github.com/juhakaup/keyboards](https://github.com/juhakaup/keyboards).
 
-This is a wireless version of this keyboard. All build details can be found in the designer's page.
+This is a wireless version of this keyboard targeting a Pro Micro nRF52840 controller. All build details can be found in the designer's page.
+
+### Local Builds
+
+With Nix installed, build both halves locally with:
+
+```sh
+nix develop -c make build
+```
+
+UF2 outputs are written under `build/cygnus_left/zephyr/zmk.uf2` and `build/cygnus_right/zephyr/zmk.uf2`.
 
 ### ZMK Studio
 

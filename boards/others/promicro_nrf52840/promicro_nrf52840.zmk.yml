@@ -1,0 +1,10 @@
+file_format: "1"
+id: promicro_nrf52840/nrf52840/uf2/zmk
+name: Pro Micro nRF52840
+type: board
+arch: arm
+outputs:
+  - usb
+  - ble
+url: https://docs.zephyrproject.org/latest/boards/others/promicro_nrf52840/doc/index.html
+exposes: [pro_micro]

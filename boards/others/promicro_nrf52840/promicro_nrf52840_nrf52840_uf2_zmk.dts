@@ -1,0 +1,9 @@
+/*
+ * SPDX-License-Identifier: MIT
+ */
+
+/dts-v1/;
+
+#include <../boards/others/promicro_nrf52840/promicro_nrf52840_nrf52840_uf2.dts>
+#include <common/nordic/nrf52840_uf2_boot_mode.dtsi>
+#include "arduino_pro_micro_pins.dtsi"

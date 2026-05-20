@@ -4,3 +4,10 @@
 build
 build.log
 tmp/
+
+# Local west workspace created by `make update` / `make build`
+.west/
+zmk/
+zephyr/
+modules/
+optional/

@@ -5,6 +5,6 @@
 # pass flags to the build command and `artifact-name` to assign a name to
 # distinguish build outputs from each other:
 #
-board: [ "nice_nano_v2" ]
+board: [ "promicro_nrf52840/nrf52840/uf2/zmk" ]
 shield: [ "cygnus_left", "cygnus_right" ]
 snippet: [ "studio-rpc-usb-uart" ]

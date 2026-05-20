@@ -1,0 +1,5 @@
+board:
+  extend: promicro_nrf52840
+  variants:
+    - name: zmk
+      qualifier: nrf52840/uf2
