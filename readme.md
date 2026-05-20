@@ -6,7 +6,7 @@
 
 Dactyl Cygnus is a handwired board originally designed by @juhakaup and available at [https://github.com/juhakaup/keyboards](https://github.com/juhakaup/keyboards).
 
-This is a wireless version of this keyboard targeting a Pro Micro nRF52840 controller. All build details can be found in the designer's page.
+This is a wireless version of this keyboard targeting a nice!nano v1 (`nice_nano@1.0.0/nrf52840/zmk`). All build details can be found in the designer's page.
 
 ### Local Builds
 
