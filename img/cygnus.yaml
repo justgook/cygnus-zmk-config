@@ -1,3 +1,4 @@
+layout: {zmk_keyboard: cygnus}
 layers:
   QWERTY:
   - Q
@@ -10,16 +11,16 @@ layers:
   - I
   - O
   - P
-  - {t: A, h: LGUI}
-  - {t: S, h: LALT}
-  - {t: D, h: LCTRL}
-  - {t: F, h: LSHFT}
+  - A
+  - S
+  - D
+  - F
   - G
   - H
-  - {t: J, h: RSHFT}
-  - {t: K, h: RCTRL}
-  - {t: L, h: RALT}
-  - {t: ;, h: RGUI}
+  - J
+  - K
+  - L
+  - ;
   - Z
   - X
   - C
@@ -29,50 +30,13 @@ layers:
   - M
   - ','
   - .
-  - QU
+  - /
   - {t: QWERTY, h: toggle}
-  - {t: REPEAT, h: FUN}
+  - {t: TAB, h: FUN}
   - {t: SPACE, h: LOWER}
   - {t: BACK SPACE, h: RAISE}
   - {t: LSHFT, h: NAV}
-  - {t: ROMAK, h: toggle}
-  ROMAK:
-  - Q
-  - B
-  - M
-  - G
-  - K
-  - X
-  - L
-  - O
-  - U
-  - Y
-  - {t: D, h: LGUI}
-  - {t: N, h: LALT}
-  - {t: S, h: LCTRL}
-  - {t: T, h: LSHFT}
-  - W
-  - Z
-  - {t: R, h: RSHFT}
-  - {t: A, h: RCTRL}
-  - {t: E, h: RALT}
-  - {t: I, h: RGUI}
-  - QU
-  - F
-  - C
-  - P
-  - V
-  - J
-  - H
-  - ','
-  - .
-  - ;
-  - {t: QWERTY, h: toggle}
-  - {t: REPEAT, h: FUN}
-  - {t: SPACE, h: LOWER}
-  - {t: BACK SPACE, h: RAISE}
-  - {t: LSHFT, h: NAV}
-  - {t: ROMAK, h: toggle}
+  - ''
   LOWER:
   - ''
   - '{'
@@ -133,7 +97,7 @@ layers:
   - $
   - DEAD ^
   - DEAD '
-  - Ç
+  - C
   - DEAD ~
   - DEAD `
   - ''
@@ -142,7 +106,7 @@ layers:
   - '*'
   - ''
   - ''
-  - REPEAT
+  - TAB
   - SPACE
   - {type: held}
   - ''
@@ -158,9 +122,9 @@ layers:
   - F8
   - F9
   - F15
-  - {t: LGUI, h: sticky}
-  - {t: LALT, h: sticky}
   - {t: LCTRL, h: sticky}
+  - {t: LALT, h: sticky}
+  - {t: LGUI, h: sticky}
   - {t: LSHFT, h: sticky}
   - Meh+ @
   - F11
